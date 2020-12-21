@@ -1,0 +1,69 @@
+body {
+  background-image: url("Background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #D6D5B3;
+}
+
+.main {
+  margin: 150px auto;
+  width: 70%;
+  height: 100%;
+}
+
+.imageContainer {
+  height: 215px;
+  width: 215px;
+  border-radius: 50%;
+  border: 8px solid #045DE9;
+  float: left;
+  margin: 0 30px;
+  padding: 0;
+}
+
+.image {
+  background-image: url("ImageA.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 7px auto;
+}
+
+.container {
+    padding: 10px 10px;
+    line-height: 0;
+    height: 100%;
+}
+
+.textContainer h1 {
+  font-family: Poppins;
+  line-height: 50px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.textContainer h2 {
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 600;
+  color: #045DE9;
+}
+
+.textContainer a {
+  height: 100px;
+  background: linear-gradient(to left, #09C6F9 -5%, #045DE9 100%);
+  text-decoration: none;
+  width: 50%;
+  padding: 20px 60px;
+  border-radius: 50px;
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 120px;
+  color: #D6D5B3;
+}
